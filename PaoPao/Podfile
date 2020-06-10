@@ -1,3 +1,5 @@
+# pod install 报错403丢包的解决办法 https://my.oschina.net/u/1993252/blog/3110883
+
 platform :ios, '12.4'
 
 target 'PaoPao' do
