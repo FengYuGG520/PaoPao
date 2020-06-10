@@ -3,9 +3,9 @@ platform :ios, '12.4'
 target 'PaoPao' do
   use_frameworks!
 
-#pod 'AFNetworking'
-#pod 'ObjectMapper'
-#pod 'SDWebImage'
-#pod 'MJRefresh'
+pod 'AFNetworking'
+pod 'ObjectMapper'
+pod 'SDWebImage'
+pod 'MJRefresh'
 
 end
