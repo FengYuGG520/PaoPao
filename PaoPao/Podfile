@@ -9,5 +9,6 @@ pod 'AFNetworking'
 pod 'ObjectMapper'
 pod 'SDWebImage'
 pod 'MJRefresh'
+pod 'OHMySQL'
 
 end
