@@ -5,8 +5,6 @@ import AFNetworking
 
 class FYNetwork: NSObject {
     
-    private static let isPrint: Bool = true
-    
     private static var manager: AFHTTPSessionManager?
     private class func defaultManager() -> AFHTTPSessionManager {
         FYGCD.fy_gcdQueue(FYGCD.fy_gcdQueue(FY_Queue_Global), task: FY_Task_Once) {
@@ -41,7 +39,6 @@ class FYNetwork: NSObject {
     
     private class func success(_ response: Any?, _ successed: ((_ response: Any)->())) {
         if response != nil {
-            isPrint ? NSObject.AFPrint(response!) : ()
             successed(response!)
         } else { print("response == nil") }
     }

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5DFFDBDB2490D94E00AFBA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */; };
 		5DFFDBDD2490D94E00AFBA8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDBDC2490D94E00AFBA8F /* SceneDelegate.swift */; };
-		5DFFDBDF2490D94E00AFBA8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDBDE2490D94E00AFBA8F /* ViewController.swift */; };
 		5DFFDBE22490D94E00AFBA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDBE02490D94E00AFBA8F /* Main.storyboard */; };
 		5DFFDBE42490D95700AFBA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDBE32490D95700AFBA8F /* Assets.xcassets */; };
 		5DFFDBE72490D95700AFBA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDBE52490D95700AFBA8F /* LaunchScreen.storyboard */; };
@@ -80,7 +79,6 @@
 		5DFFDD132490DEA300AFBA8F /* FYMusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA12490DEA300AFBA8F /* FYMusicTools.swift */; };
 		5DFFDD142490DEA300AFBA8F /* FYShowSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA32490DEA300AFBA8F /* FYShowSB.storyboard */; };
 		5DFFDD152490DEA300AFBA8F /* FYShowSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA42490DEA300AFBA8F /* FYShowSB.swift */; };
-		5DFFDD162490DEA300AFBA8F /* FYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA52490DEA300AFBA8F /* FYTableViewCell.swift */; };
 		5DFFDD172490DEA300AFBA8F /* FYPickerVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA62490DEA300AFBA8F /* FYPickerVC.storyboard */; };
 		5DFFDD182490DEA300AFBA8F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA72490DEA300AFBA8F /* Item.swift */; };
 		5DFFDD192490DEA300AFBA8F /* UIViewController+FYPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCA82490DEA300AFBA8F /* UIViewController+FYPickerVC.swift */; };
@@ -97,6 +95,17 @@
 		5DFFDD242490DEA300AFBA8F /* FYLen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCB42490DEA300AFBA8F /* FYLen.swift */; };
 		5DFFDD252490DEA300AFBA8F /* FYUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCB52490DEA300AFBA8F /* FYUserDefault.swift */; };
 		5DFFDD262490DEA300AFBA8F /* FYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDCB72490DEA300AFBA8F /* FYViewController.swift */; };
+		5DFFDD292491C98E00AFBA8F /* HelloDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD282491C98E00AFBA8F /* HelloDoctorModel.swift */; };
+		5DFFDD2B2491D19400AFBA8F /* FYDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD2A2491D19400AFBA8F /* FYDB.swift */; };
+		5DFFDD2E24920FB800AFBA8F /* SQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD2D24920FB800AFBA8F /* SQL.swift */; };
+		5DFFDD30249211C800AFBA8F /* 产品.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDD2F249211C800AFBA8F /* 产品.txt */; };
+		5DFFDD342492199600AFBA8F /* FYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD332492199600AFBA8F /* FYNavigationController.swift */; };
+		5DFFDD3624921A1B00AFBA8F /* FYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3524921A1B00AFBA8F /* FYTabBarController.swift */; };
+		5DFFDD3924921BEA00AFBA8F /* FYHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3824921BEA00AFBA8F /* FYHomeVC.swift */; };
+		5DFFDD3B249224BE00AFBA8F /* FYDoctorLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3A249224BE00AFBA8F /* FYDoctorLoginVC.swift */; };
+		5DFFDD3D249225F000AFBA8F /* 医生登录时间.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3C249225F000AFBA8F /* 医生登录时间.txt */; };
+		5DFFDD4024922DFD00AFBA8F /* FYDoctorLoginVCTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3E24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.swift */; };
+		5DFFDD4124922DFD00AFBA8F /* FYDoctorLoginVCTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDD3F24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.xib */; };
 		A2AB3ACCDB0642DC1F90B8F1 /* Pods_PaoPao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C3CC1BBAE2B5687EFFA2C6 /* Pods_PaoPao.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +114,6 @@
 		5DFFDBD72490D94E00AFBA8F /* PaoPao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaoPao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DFFDBDC2490D94E00AFBA8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DFFDBDE2490D94E00AFBA8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DFFDBE12490D94E00AFBA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DFFDBE32490D95700AFBA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFFDBE62490D95700AFBA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -216,7 +224,6 @@
 		5DFFDCA12490DEA300AFBA8F /* FYMusicTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYMusicTools.swift; sourceTree = "<group>"; };
 		5DFFDCA32490DEA300AFBA8F /* FYShowSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYShowSB.storyboard; sourceTree = "<group>"; };
 		5DFFDCA42490DEA300AFBA8F /* FYShowSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowSB.swift; sourceTree = "<group>"; };
-		5DFFDCA52490DEA300AFBA8F /* FYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYTableViewCell.swift; sourceTree = "<group>"; };
 		5DFFDCA62490DEA300AFBA8F /* FYPickerVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYPickerVC.storyboard; sourceTree = "<group>"; };
 		5DFFDCA72490DEA300AFBA8F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5DFFDCA82490DEA300AFBA8F /* UIViewController+FYPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FYPickerVC.swift"; sourceTree = "<group>"; };
@@ -233,6 +240,17 @@
 		5DFFDCB42490DEA300AFBA8F /* FYLen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYLen.swift; sourceTree = "<group>"; };
 		5DFFDCB52490DEA300AFBA8F /* FYUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYUserDefault.swift; sourceTree = "<group>"; };
 		5DFFDCB72490DEA300AFBA8F /* FYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYViewController.swift; sourceTree = "<group>"; };
+		5DFFDD282491C98E00AFBA8F /* HelloDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDoctorModel.swift; sourceTree = "<group>"; };
+		5DFFDD2A2491D19400AFBA8F /* FYDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDB.swift; sourceTree = "<group>"; };
+		5DFFDD2D24920FB800AFBA8F /* SQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQL.swift; sourceTree = "<group>"; };
+		5DFFDD2F249211C800AFBA8F /* 产品.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "产品.txt"; sourceTree = "<group>"; };
+		5DFFDD332492199600AFBA8F /* FYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNavigationController.swift; sourceTree = "<group>"; };
+		5DFFDD3524921A1B00AFBA8F /* FYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTabBarController.swift; sourceTree = "<group>"; };
+		5DFFDD3824921BEA00AFBA8F /* FYHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeVC.swift; sourceTree = "<group>"; };
+		5DFFDD3A249224BE00AFBA8F /* FYDoctorLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDoctorLoginVC.swift; sourceTree = "<group>"; };
+		5DFFDD3C249225F000AFBA8F /* 医生登录时间.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "医生登录时间.txt"; sourceTree = "<group>"; };
+		5DFFDD3E24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDoctorLoginVCTableCell.swift; sourceTree = "<group>"; };
+		5DFFDD3F24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FYDoctorLoginVCTableCell.xib; sourceTree = "<group>"; };
 		BE7F508D52990405229453A7 /* Pods-PaoPao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaoPao.debug.xcconfig"; path = "Target Support Files/Pods-PaoPao/Pods-PaoPao.debug.xcconfig"; sourceTree = "<group>"; };
 		F6157DFBF4CF482C6256699A /* Pods-PaoPao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaoPao.release.xcconfig"; path = "Target Support Files/Pods-PaoPao/Pods-PaoPao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,10 +305,14 @@
 		5DFFDBD92490D94E00AFBA8F /* PaoPao */ = {
 			isa = PBXGroup;
 			children = (
-				5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */,
 				5DFFDBDC2490D94E00AFBA8F /* SceneDelegate.swift */,
-				5DFFDBDE2490D94E00AFBA8F /* ViewController.swift */,
+				5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */,
+				5DFFDD3524921A1B00AFBA8F /* FYTabBarController.swift */,
+				5DFFDD332492199600AFBA8F /* FYNavigationController.swift */,
 				5DFFDBEE2490D9B600AFBA8F /* PaoPao-Bridging-Header.h */,
+				5DFFDD3724921B6400AFBA8F /* UI */,
+				5DFFDD2C24920F9200AFBA8F /* SQL */,
+				5DFFDD272491C96800AFBA8F /* Model */,
 				5DFFDBF22490DEA300AFBA8F /* FYAPPS */,
 				5DFFDBE02490D94E00AFBA8F /* Main.storyboard */,
 				5DFFDBE32490D95700AFBA8F /* Assets.xcassets */,
@@ -345,6 +367,7 @@
 				5DFFDC062490DEA300AFBA8F /* UIImageView+extension.swift */,
 				5DFFDC072490DEA300AFBA8F /* FYRefresh.swift */,
 				5DFFDC082490DEA300AFBA8F /* FYNetwork.swift */,
+				5DFFDD2A2491D19400AFBA8F /* FYDB.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -498,7 +521,6 @@
 			children = (
 				5DFFDCA32490DEA300AFBA8F /* FYShowSB.storyboard */,
 				5DFFDCA42490DEA300AFBA8F /* FYShowSB.swift */,
-				5DFFDCA52490DEA300AFBA8F /* FYTableViewCell.swift */,
 				5DFFDCA62490DEA300AFBA8F /* FYPickerVC.storyboard */,
 				5DFFDCA72490DEA300AFBA8F /* Item.swift */,
 				5DFFDCA82490DEA300AFBA8F /* UIViewController+FYPickerVC.swift */,
@@ -531,6 +553,35 @@
 				5DFFDCB72490DEA300AFBA8F /* FYViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		5DFFDD272491C96800AFBA8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFDD282491C98E00AFBA8F /* HelloDoctorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DFFDD2C24920F9200AFBA8F /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFDD2D24920FB800AFBA8F /* SQL.swift */,
+				5DFFDD2F249211C800AFBA8F /* 产品.txt */,
+				5DFFDD3C249225F000AFBA8F /* 医生登录时间.txt */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		5DFFDD3724921B6400AFBA8F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFDD3824921BEA00AFBA8F /* FYHomeVC.swift */,
+				5DFFDD3A249224BE00AFBA8F /* FYDoctorLoginVC.swift */,
+				5DFFDD3E24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.swift */,
+				5DFFDD3F24922DFD00AFBA8F /* FYDoctorLoginVCTableCell.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -602,8 +653,11 @@
 				5DFFDBE22490D94E00AFBA8F /* Main.storyboard in Resources */,
 				5DFFDCEC2490DEA300AFBA8F /* backgroundStar@2x.png in Resources */,
 				5DFFDCF82490DEA300AFBA8F /* FYScanner.bundle in Resources */,
+				5DFFDD30249211C800AFBA8F /* 产品.txt in Resources */,
+				5DFFDD4124922DFD00AFBA8F /* FYDoctorLoginVCTableCell.xib in Resources */,
 				5DFFDCEA2490DEA300AFBA8F /* backgroundStar.png in Resources */,
 				5DFFDCEB2490DEA300AFBA8F /* foregroundStar@2x.png in Resources */,
+				5DFFDD3D249225F000AFBA8F /* 医生登录时间.txt in Resources */,
 				5DFFDD1C2490DEA300AFBA8F /* region.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,7 +713,6 @@
 			files = (
 				5DFFDCF02490DEA300AFBA8F /* FYWavesView.m in Sources */,
 				5DFFDCF62490DEA300AFBA8F /* FYScanner.m in Sources */,
-				5DFFDBDF2490D94E00AFBA8F /* ViewController.swift in Sources */,
 				5DFFDBDB2490D94E00AFBA8F /* AppDelegate.swift in Sources */,
 				5DFFDD052490DEA300AFBA8F /* WXSTransitionManager+BrickAnimation.m in Sources */,
 				5DFFDCC12490DEA300AFBA8F /* Font+extension.swift in Sources */,
@@ -670,15 +723,16 @@
 				5DFFDD102490DEA300AFBA8F /* WXSTransitionProperty.m in Sources */,
 				5DFFDCBD2490DEA300AFBA8F /* UIViewController+extension.swift in Sources */,
 				5DFFDCBB2490DEA300AFBA8F /* UIView+extension.swift in Sources */,
-				5DFFDD162490DEA300AFBA8F /* FYTableViewCell.swift in Sources */,
 				5DFFDD082490DEA300AFBA8F /* UIViewController+WXSTransition.m in Sources */,
 				5DFFDCF22490DEA300AFBA8F /* UIWindow+FPS.m in Sources */,
 				5DFFDD132490DEA300AFBA8F /* FYMusicTools.swift in Sources */,
 				5DFFDD262490DEA300AFBA8F /* FYViewController.swift in Sources */,
 				5DFFDCF12490DEA300AFBA8F /* FYSize.m in Sources */,
+				5DFFDD3B249224BE00AFBA8F /* FYDoctorLoginVC.swift in Sources */,
 				5DFFDD072490DEA300AFBA8F /* UINavigationController+WXSTransition.m in Sources */,
 				5DFFDD212490DEA300AFBA8F /* FYAlert.swift in Sources */,
 				5DFFDD062490DEA300AFBA8F /* WXSTransitionManager+FlipAnimation.m in Sources */,
+				5DFFDD3624921A1B00AFBA8F /* FYTabBarController.swift in Sources */,
 				5DFFDCBC2490DEA300AFBA8F /* UIImage+extension.swift in Sources */,
 				5DFFDCFC2490DEA300AFBA8F /* EwenCopyLabel.m in Sources */,
 				5DFFDD192490DEA300AFBA8F /* UIViewController+FYPickerVC.swift in Sources */,
@@ -690,6 +744,7 @@
 				5DFFDCC52490DEA300AFBA8F /* UITextField+extension.swift in Sources */,
 				5DFFDD042490DEA300AFBA8F /* WXSTransitionManager+PageAnimation.m in Sources */,
 				5DFFDD232490DEA300AFBA8F /* FYDevice.swift in Sources */,
+				5DFFDD292491C98E00AFBA8F /* HelloDoctorModel.swift in Sources */,
 				5DFFDCF32490DEA300AFBA8F /* FYFPS.m in Sources */,
 				5DFFDCBF2490DEA300AFBA8F /* UIScreen+extension.swift in Sources */,
 				5DFFDCEF2490DEA300AFBA8F /* UICollectionView+FYCollectionView.m in Sources */,
@@ -700,10 +755,13 @@
 				5DFFDD122490DEA300AFBA8F /* FYFile.swift in Sources */,
 				5DFFDCF72490DEA300AFBA8F /* FYScannerViewController.m in Sources */,
 				5DFFDD112490DEA300AFBA8F /* Common.swift in Sources */,
+				5DFFDD2E24920FB800AFBA8F /* SQL.swift in Sources */,
 				5DFFDCBE2490DEA300AFBA8F /* String+extension.swift in Sources */,
 				5DFFDD002490DEA300AFBA8F /* WXSTransitionManager+SpreadAnimation.m in Sources */,
 				5DFFDCC82490DEA300AFBA8F /* UITableView+extension.swift in Sources */,
 				5DFFDD152490DEA300AFBA8F /* FYShowSB.swift in Sources */,
+				5DFFDD342492199600AFBA8F /* FYNavigationController.swift in Sources */,
+				5DFFDD3924921BEA00AFBA8F /* FYHomeVC.swift in Sources */,
 				5DFFDCB92490DEA300AFBA8F /* CADisplayLink+extension.swift in Sources */,
 				5DFFDCCA2490DEA300AFBA8F /* FYRefresh.swift in Sources */,
 				5DFFDD012490DEA300AFBA8F /* WXSTransitionManager+InsideThenPushAnimation.m in Sources */,
@@ -711,6 +769,7 @@
 				5DFFDD092490DEA300AFBA8F /* WXSPercentDrivenInteractiveTransition.m in Sources */,
 				5DFFDD1A2490DEA300AFBA8F /* FYCollectionViewFlowLayout.swift in Sources */,
 				5DFFDD252490DEA300AFBA8F /* FYUserDefault.swift in Sources */,
+				5DFFDD4024922DFD00AFBA8F /* FYDoctorLoginVCTableCell.swift in Sources */,
 				5DFFDD0F2490DEA300AFBA8F /* WXSTransitionManager+ViewMoveAnimation.m in Sources */,
 				5DFFDCB82490DEA300AFBA8F /* UIResponder+extension.swift in Sources */,
 				5DFFDD0D2490DEA300AFBA8F /* WXSTransitionManager.m in Sources */,
@@ -736,6 +795,7 @@
 				5DFFDD022490DEA300AFBA8F /* WXSTransitionManager+BoomAnimation.m in Sources */,
 				5DFFDD0B2490DEA300AFBA8F /* WXSTransitionManager+CoverAnimation.m in Sources */,
 				5DFFDCFF2490DEA300AFBA8F /* DistanceStarView.m in Sources */,
+				5DFFDD2B2491D19400AFBA8F /* FYDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

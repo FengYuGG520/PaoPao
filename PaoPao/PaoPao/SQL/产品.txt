@@ -1,0 +1,6 @@
+SELECT t_products.drug_name,
+t_products.purchase_price,
+t_products.doctor_price,
+t_products.sales_volume
+FROM t_products
+ORDER BY sales_volume DESC

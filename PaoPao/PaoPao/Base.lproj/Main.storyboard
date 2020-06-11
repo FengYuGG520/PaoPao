@@ -1,24 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FYHomeVC" id="BYZ-38-t0r" customClass="FYHomeVC" customModule="PaoPao" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="医生登录情况" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jS-6q-7lO">
+                                <rect key="frame" x="146" y="209" width="122.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRX-Ac-BpD">
+                                <rect key="frame" x="146" y="209" width="122.5" height="30"/>
+                                <connections>
+                                    <action selector="doctorLoginClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tU-1L-Ema"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2jS-6q-7lO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8FU-er-M1H"/>
+                            <constraint firstItem="bRX-Ac-BpD" firstAttribute="trailing" secondItem="2jS-6q-7lO" secondAttribute="trailing" id="ILs-KZ-GXT"/>
+                            <constraint firstItem="2jS-6q-7lO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="cVV-L5-hqH"/>
+                            <constraint firstItem="bRX-Ac-BpD" firstAttribute="leading" secondItem="2jS-6q-7lO" secondAttribute="leading" id="def-Ph-y2o"/>
+                            <constraint firstItem="bRX-Ac-BpD" firstAttribute="bottom" secondItem="2jS-6q-7lO" secondAttribute="bottom" id="v1Y-Zs-PIw"/>
+                            <constraint firstItem="bRX-Ac-BpD" firstAttribute="top" secondItem="2jS-6q-7lO" secondAttribute="top" id="xMK-Ib-xTS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1252" y="186"/>
+        </scene>
+        <!--Doctor LoginVC-->
+        <scene sceneID="9aR-9O-lFY">
+            <objects>
+                <viewController storyboardIdentifier="FYDoctorLoginVC" id="9RV-L0-i4l" customClass="FYDoctorLoginVC" customModule="PaoPao" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b4x-3Q-Fve">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECU-vZ-iEN">
+                                <rect key="frame" x="0.0" y="20" width="414" height="64"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popBtn" translatesAutoresizingMaskIntoConstraints="NO" id="taa-yO-3vL">
+                                        <rect key="frame" x="10" y="16" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="JEh-3T-d3d"/>
+                                            <constraint firstAttribute="width" secondItem="taa-yO-3vL" secondAttribute="height" multiplier="1:1" id="tNc-U5-zd7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JQ-Em-K7Q">
+                                        <rect key="frame" x="6" y="12" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5JQ-Em-K7Q" secondAttribute="height" multiplier="1:1" id="RmB-Ey-nGJ"/>
+                                            <constraint firstAttribute="width" constant="40" id="XGb-TX-CRT"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="popClick:" destination="9RV-L0-i4l" eventType="touchUpInside" id="ILN-Ya-77F"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="医生登录情况" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PwP-t5-VoW">
+                                        <rect key="frame" x="152" y="21.5" width="110.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="2qJ-bQ-bml"/>
+                                    <constraint firstItem="taa-yO-3vL" firstAttribute="centerY" secondItem="5JQ-Em-K7Q" secondAttribute="centerY" id="760-MW-LVX"/>
+                                    <constraint firstItem="taa-yO-3vL" firstAttribute="centerY" secondItem="ECU-vZ-iEN" secondAttribute="centerY" id="8ZP-sp-zs5"/>
+                                    <constraint firstItem="PwP-t5-VoW" firstAttribute="centerY" secondItem="ECU-vZ-iEN" secondAttribute="centerY" id="Ksv-co-c3v"/>
+                                    <constraint firstItem="PwP-t5-VoW" firstAttribute="centerX" secondItem="ECU-vZ-iEN" secondAttribute="centerX" id="Qdp-pR-wry"/>
+                                    <constraint firstItem="taa-yO-3vL" firstAttribute="centerX" secondItem="5JQ-Em-K7Q" secondAttribute="centerX" id="T7a-la-PHe"/>
+                                    <constraint firstItem="taa-yO-3vL" firstAttribute="leading" secondItem="ECU-vZ-iEN" secondAttribute="leading" constant="10" id="hsb-QB-UMh"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="P0k-bu-QPb">
+                                <rect key="frame" x="0.0" y="84" width="414" height="812"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ECU-vZ-iEN" secondAttribute="trailing" id="Rok-OE-iOU"/>
+                            <constraint firstItem="ECU-vZ-iEN" firstAttribute="top" secondItem="b4x-3Q-Fve" secondAttribute="top" constant="20" id="SXM-hu-Qnv"/>
+                            <constraint firstItem="P0k-bu-QPb" firstAttribute="top" secondItem="ECU-vZ-iEN" secondAttribute="bottom" id="Wvg-Nv-sDc"/>
+                            <constraint firstItem="ECU-vZ-iEN" firstAttribute="leading" secondItem="b4x-3Q-Fve" secondAttribute="leading" id="Ylh-Et-lBG"/>
+                            <constraint firstAttribute="trailing" secondItem="P0k-bu-QPb" secondAttribute="trailing" id="jr4-oT-Gx2"/>
+                            <constraint firstAttribute="bottom" secondItem="P0k-bu-QPb" secondAttribute="bottom" id="nIg-O8-REv"/>
+                            <constraint firstItem="P0k-bu-QPb" firstAttribute="leading" secondItem="b4x-3Q-Fve" secondAttribute="leading" id="xNq-jm-sv2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navHeight" destination="SXM-hu-Qnv" id="U1w-xx-sbN"/>
+                        <outlet property="tableView" destination="P0k-bu-QPb" id="5al-fF-euu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Onc-F1-2af" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-590" y="185"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="popBtn" width="32" height="32"/>
+    </resources>
 </document>
