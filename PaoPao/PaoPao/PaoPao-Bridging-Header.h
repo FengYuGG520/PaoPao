@@ -17,4 +17,6 @@
 #import "UICollectionView+FYCollectionView.h"
 #import "UIColor+FYColor.h"
 #import "FYOCTool.h"
+#import "NSData+AES256.h"
+
 

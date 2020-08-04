@@ -10,7 +10,7 @@ import UIKit
 import ObjectMapper
 
 class FYHomeVC: FYViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

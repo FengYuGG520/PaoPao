@@ -25,4 +25,24 @@ extension String {
         return (self as NSString).fy_height(withWidth: width, textFont: textFont)
     }
     
+    // 字典转字符串
+    static func fy_strInDic(_ dic: [String: Any]) -> String {
+        var str = ""
+        do {
+            let data = try! JSONSerialization.data(withJSONObject: dic, options: [])
+            str = (NSString(data: data, encoding: String.Encoding.utf8.rawValue) ?? "") as String
+        }
+        return str
+    }
+    
+    // 字符串转字典
+    static func fy_dicInStr(_ str: String) -> [String: Any] {
+        var dic: [String: Any]? = nil
+        do {
+            let tmp: [String: Any] = try! (JSONSerialization.jsonObject(with: str.data(using: .utf8)!, options: .mutableContainers) as! [String: Any])
+            dic = tmp
+        }
+        return dic ?? [: ]
+    }
+    
 }

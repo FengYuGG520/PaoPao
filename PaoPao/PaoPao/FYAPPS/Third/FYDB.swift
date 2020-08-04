@@ -16,7 +16,7 @@ class FYDB {
         if manager == nil {
             // 连接数据库
             let userName = "root" // 用户名
-            let password = "Ygbd..9207fengyuGG520" // 密码
+            let password = "YGJKDB47..3889755789DSs" // 密码
             let ip = "119.23.210.225" // ip或域名（默认端口3306）
             let dbName = "db_hello_doctor_new" // 数据库名字
             

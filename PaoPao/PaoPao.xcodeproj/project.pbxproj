@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2A79542499FC390059220C /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A79532499FC390059220C /* NSData+AES256.m */; };
+		5D513980249AFE6F008AB133 /* FYSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51397F249AFE6F008AB133 /* FYSE.swift */; };
 		5DFFDBDB2490D94E00AFBA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */; };
 		5DFFDBDD2490D94E00AFBA8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDBDC2490D94E00AFBA8F /* SceneDelegate.swift */; };
 		5DFFDBE22490D94E00AFBA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDBE02490D94E00AFBA8F /* Main.storyboard */; };
@@ -111,6 +113,9 @@
 
 /* Begin PBXFileReference section */
 		20C3CC1BBAE2B5687EFFA2C6 /* Pods_PaoPao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaoPao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2A79522499FC390059220C /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		5D2A79532499FC390059220C /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		5D51397F249AFE6F008AB133 /* FYSE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYSE.swift; sourceTree = "<group>"; };
 		5DFFDBD72490D94E00AFBA8F /* PaoPao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaoPao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFFDBDA2490D94E00AFBA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DFFDBDC2490D94E00AFBA8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -381,6 +386,8 @@
 				5DFFDC4C2490DEA300AFBA8F /* TQStarRating */,
 				5DFFDC712490DEA300AFBA8F /* FYGCD.h */,
 				5DFFDC0B2490DEA300AFBA8F /* FYGCD.m */,
+				5D2A79522499FC390059220C /* NSData+AES256.h */,
+				5D2A79532499FC390059220C /* NSData+AES256.m */,
 				5DFFDC552490DEA300AFBA8F /* FYOCTool.h */,
 				5DFFDC732490DEA300AFBA8F /* FYOCTool.m */,
 				5DFFDC9B2490DEA300AFBA8F /* FYSize.h */,
@@ -408,8 +415,8 @@
 		5DFFDC4C2490DEA300AFBA8F /* TQStarRating */ = {
 			isa = PBXGroup;
 			children = (
-				5DFFDC4D2490DEA300AFBA8F /* TQStarRatingView.h */,
 				5DFFDC4E2490DEA300AFBA8F /* Image */,
+				5DFFDC4D2490DEA300AFBA8F /* TQStarRatingView.h */,
 				5DFFDC532490DEA300AFBA8F /* TQStarRatingView.m */,
 			);
 			path = TQStarRating;
@@ -430,9 +437,9 @@
 			isa = PBXGroup;
 			children = (
 				5DFFDC5A2490DEA300AFBA8F /* FYFPS.h */,
-				5DFFDC5B2490DEA300AFBA8F /* UIWindow+FPS.m */,
 				5DFFDC5C2490DEA300AFBA8F /* FYFPS.m */,
 				5DFFDC5D2490DEA300AFBA8F /* UIWindow+FPS.h */,
+				5DFFDC5B2490DEA300AFBA8F /* UIWindow+FPS.m */,
 			);
 			path = FYFPS;
 			sourceTree = "<group>";
@@ -511,6 +518,7 @@
 			isa = PBXGroup;
 			children = (
 				5DFFDCA02490DEA300AFBA8F /* FYFile.swift */,
+				5D51397F249AFE6F008AB133 /* FYSE.swift */,
 				5DFFDCA12490DEA300AFBA8F /* FYMusicTools.swift */,
 			);
 			path = Swift;
@@ -781,6 +789,7 @@
 				5DFFDD0A2490DEA300AFBA8F /* WXSTransitionManager+TypeTool.m in Sources */,
 				5DFFDCFA2490DEA300AFBA8F /* FYScannerBorder.m in Sources */,
 				5DFFDCF52490DEA300AFBA8F /* FYScanerCardViewController.m in Sources */,
+				5D2A79542499FC390059220C /* NSData+AES256.m in Sources */,
 				5DFFDD1E2490DEA300AFBA8F /* FYPickerVC1.swift in Sources */,
 				5DFFDBDD2490D94E00AFBA8F /* SceneDelegate.swift in Sources */,
 				5DFFDCC22490DEA300AFBA8F /* notification+extension.swift in Sources */,
@@ -789,6 +798,7 @@
 				5DFFDD0E2490DEA300AFBA8F /* WXSTransitionManager+SystermAnimation.m in Sources */,
 				5DFFDCCD2490DEA300AFBA8F /* FYGCD.m in Sources */,
 				5DFFDCFD2490DEA300AFBA8F /* UIColor+FYColor.m in Sources */,
+				5D513980249AFE6F008AB133 /* FYSE.swift in Sources */,
 				5DFFDCF42490DEA300AFBA8F /* NSString+FYHeight.m in Sources */,
 				5DFFDD202490DEA300AFBA8F /* FYShowOKVC2.swift in Sources */,
 				5DFFDCF92490DEA300AFBA8F /* FYScannerController.m in Sources */,

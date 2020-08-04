@@ -47,7 +47,7 @@ class FYNetwork: NSObject {
                    parameters: [String: Any]?,
                    successed: @escaping ((_ response: Any)->())
         ) {
-        self.defaultManager().get(urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
+        self.defaultManager().get(url_host + urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
             self.success(response, successed)
         }) { (_, err) in
             print("err -> \(err)")
@@ -59,7 +59,7 @@ class FYNetwork: NSObject {
                    successed: @escaping ((_ response: Any)->()),
                    errBlock: @escaping (()->())
         ) {
-        self.defaultManager().get(urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
+        self.defaultManager().get(url_host + urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
             self.success(response, successed)
         }) { (_, err) in
             print("err -> \(err)")
@@ -71,7 +71,7 @@ class FYNetwork: NSObject {
                     parameters: [String: Any]?,
                     successed: @escaping ((_ response: Any)->())
         ) {
-        self.defaultManager().post(urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
+        self.defaultManager().post(url_host + urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
             self.success(response, successed)
         }) { (_, err) in
             print("err -> \(err)")
@@ -83,7 +83,7 @@ class FYNetwork: NSObject {
                     successed: @escaping ((_ response: Any)->()),
                     errBlock: @escaping (()->())
         ) {
-        self.defaultManager().post(urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
+        self.defaultManager().post(url_host + urlStr, parameters: parameters, headers: nil, progress: nil, success: { (_, response) in
             self.success(response, successed)
         }) { (_, err) in
             print("err -> \(err)")

@@ -55,3 +55,8 @@ let emptyString = ""
 let navHeightConstant: CGFloat = CGFloat((screenHeight / screenWidth) >= (896 / 414) ? 44 : 20)
 // 适配tab
 let tabHeightConstant: CGFloat = CGFloat((screenHeight / screenWidth) >= (896 / 414) ? 34 : 0)
+
+// 主机地址
+//let url_host: String = "39.108.91.200:8080"
+let url_host: String = "http://192.168.101.23:8080"
+

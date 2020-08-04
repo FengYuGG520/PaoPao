@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,6 +28,11 @@
                                     <action selector="doctorLoginClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tU-1L-Ema"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VfA-bU-IKp">
+                                <rect key="frame" x="87" y="306" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -37,6 +43,7 @@
                             <constraint firstItem="bRX-Ac-BpD" firstAttribute="bottom" secondItem="2jS-6q-7lO" secondAttribute="bottom" id="v1Y-Zs-PIw"/>
                             <constraint firstItem="bRX-Ac-BpD" firstAttribute="top" secondItem="2jS-6q-7lO" secondAttribute="top" id="xMK-Ib-xTS"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="vTi-s3-MLC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -104,6 +111,7 @@
                             <constraint firstAttribute="bottom" secondItem="P0k-bu-QPb" secondAttribute="bottom" id="nIg-O8-REv"/>
                             <constraint firstItem="P0k-bu-QPb" firstAttribute="leading" secondItem="b4x-3Q-Fve" secondAttribute="leading" id="xNq-jm-sv2"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="z1S-Lf-qn5"/>
                     </view>
                     <connections>
                         <outlet property="navHeight" destination="SXM-hu-Qnv" id="U1w-xx-sbN"/>
